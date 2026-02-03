@@ -1,57 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <title>سماع القرآن | Quran Stream</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <a href="index.html">الرئيسية</a>
-      <a href="audio_quran.html" class="active">سماع القرآن</a>
-      <a href="audio_live.html">الإذاعة</a>
-      <a href="live.html">البث المباشر</a>
-    </nav>
-
-    <!-- Quran Page -->
-    <section class="section">
-      <h2>🎧 سماع القرآن الكريم</h2>
-      <p class="subtitle">اختر القارئ والسورة التي ترغب في الاستماع إليها</p>
-
-      <div class="quran-box">
-        <!-- اختيار القارئ -->
-        <div class="select-box">
-          <label>القارئ</label>
-          <select id="selectReciters">
-          </select>
-        </div>
-
-        <!-- اختيار الرواية -->
-        <div class="select-box">
-          <label>الرواية</label>
-          <select id="selectRaweh">
-          </select>
-        </div>
-
-        <!-- اختيار السورة -->
-        <div class="select-box">
-          <label>السورة</label>
-          <select id="selectSuarh">
-          </select>
-        </div>
-
-        <audio id="surahadio" controls autoplay muted>
-          <source src="" type="audio/ogg" />
-          <source src="" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </section>
-
-    <footer>
-      <p>© 2026 Quran Stream</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
