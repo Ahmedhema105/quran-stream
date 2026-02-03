@@ -1,56 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>الإذاعة | Quran Stream</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar">
-    <a href="index.html">الرئيسية</a>
-    <a href="audio_quran.html">سماع القرآن</a>
-    <a href="audio_live.html" class="active">الإذاعة</a>
-      <a href="live.html">البث المباشر</a>
-  </nav>
-
-  <!-- Radio Section -->
-  <section class="section">
-    <h2>📻 إذاعة القرآن الكريم</h2>
-    <p class="subtitle">
-      استمع إلى الإذاعات الإسلامية المباشرة على مدار الساعة
-    </p>
-
-    <div class="radio-box">
-
-      <!-- اختيار الإذاعة -->
-      <div class="select-box">
-        <label>اختر الإذاعة</label>
-        <select id="selectRadio">
-          <option disabled selected>اختر الإذاعة</option>
-        </select>
-      </div>
-
-      <!-- مشغل الراديو -->
-      <div class="radio-player">
-        <audio id="radioPlay" controls>
-          <source  type="audio/mpeg">
-          المتصفح لا يدعم تشغيل الصوت
-        </audio>
-      </div>
-
-      <p class="note">
-        البث يعمل تلقائيًا عند اختيار الإذاعة (سيتم ربطه لاحقًا)
-      </p>
-
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2026 Quran Stream</p>
-  </footer>
-    <script src="script.js"></script>
-
-</body>
-</html>
